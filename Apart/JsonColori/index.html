@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<meta charset="utf8">
+<head>
+    <title>json intrtoduction</title>
+    <script src="js/index.js"></script>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <button type="button" id="btnCarica" onclick="carica('stampa')">Carica Json</button>
+    <!--<form action="indirizzo del web server"method="get"></form>-->
+    <div id="stampa"></div>
+	<div id="tab2"></div>
+	<div id="pulsanti">
+		<p>Nome colore <input type="text" id="txtColore" class="campo"></p>
+		<p>Codice colore <input type="text" id="txtHex" class="campo"></p>
+		<p><button type="button" id="btnAggiungi" onclick="aggiungi()">Aggiungi colore</button></p>
+		<p><button type="button" id="btnRimuovi" onclick="rimuovi()">Rimuovi colore</button></p>
+		<p><button type="button" id="btnAggiorna" onclick="aggiorna()">Aggiorna tabella</button></p>
+    </div>
+</body>
